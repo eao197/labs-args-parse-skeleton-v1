@@ -22,7 +22,7 @@ if (MSVC)
     # Повышаем уровень предупреждений.
     add_compile_options(/W3)
     # И исходники в UTF-8, и строки в результирующем файле в UTF-8.
-    #   add_compile_options(/utf-8)
+    add_compile_options(/utf-8)
 endif()
 
 # Подключаем подпроекты.
